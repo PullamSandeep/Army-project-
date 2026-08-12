@@ -9,7 +9,7 @@
 
 // // export default api;
 
-// const API_URL = "http://localhost:5000/api";
+// const API_URL = "https://army-project-backend-3.onrender.com/api";
 
 // const getToken = () => {
 //     return localStorage.getItem("token");
