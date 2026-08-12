@@ -54,58 +54,7 @@ function Dashboard() {
 
       {/* Main */}
       <main className="p-6">
-        {/* Navigation */}
-<div className="bg-white rounded-xl shadow-sm p-4 mb-6">
-  <div className="flex flex-wrap gap-3 items-center">
-
-    <h2 className="text-lg font-bold text-slate-800 mr-4">
-      Management System
-    </h2>
-
-    <Link
-      to="/dashboard"
-      className="bg-slate-900 text-white px-4 py-2 rounded-lg hover:bg-slate-700"
-    >
-      Dashboard
-    </Link>
-
-    <Link
-      to="/purchases"
-      className="bg-slate-100 text-slate-800 px-4 py-2 rounded-lg hover:bg-slate-200"
-    >
-      Purchases
-    </Link>
-
-    <Link
-      to="/transfers"
-      className="bg-slate-100 text-slate-800 px-4 py-2 rounded-lg hover:bg-slate-200"
-    >
-      Transfers
-    </Link>
-
-    <Link
-      to="/assignments"
-      className="bg-slate-100 text-slate-800 px-4 py-2 rounded-lg hover:bg-slate-200"
-    >
-      Assignments
-    </Link>
-
-    <Link
-      to="/expenditures"
-      className="bg-slate-100 text-slate-800 px-4 py-2 rounded-lg hover:bg-slate-200"
-    >
-      Expenditures
-    </Link>
-
-    <Link
-      to="/audit-logs"
-      className="bg-slate-100 text-slate-800 px-4 py-2 rounded-lg hover:bg-slate-200"
-    >
-      Audit Logs
-    </Link>
-
-  </div>
-</div>
+    
         <div className="mb-6">
           <h2 className="text-2xl font-bold text-slate-800">
             Dashboard
